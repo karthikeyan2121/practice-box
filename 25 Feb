@@ -1,0 +1,10 @@
+ c(2,4,"hello", TRUE)
+[1] "2"     "4"     "hello" "TRUE" 
+> c(2,4, TRUE)
+[1] 2 4 1
+> months.abb(7,8,12)
+Error in months.abb(7, 8, 12) : could not find function "months.abb"
+> month.abb(2:4)
+Error in month.abb(2:4) : could not find function "month.abb"
+> month.abb[2:4]
+[1] "Feb" "Mar" "Apr"
